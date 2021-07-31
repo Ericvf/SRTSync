@@ -1,0 +1,1 @@
+<XmlTransformation Version="1.0"><Transform Direction="ToCds"><SelectEach dest="DATAPACKET\ROWDATA\ROW" from="\CustomerParams"><Select dest="@CustNoMin" from="\MinimumCustomerNumber"/><Select dest="@CustNoMax" from="\MaximumCustomerNumber"/></SelectEach></Transform><XmlSchema RootName="CustomerParams"><![CDATA
